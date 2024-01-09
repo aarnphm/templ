@@ -1,0 +1,6 @@
+* text=auto eol=lf
+# Needed for setuptools-scm-git-archive
+.git_archival.txt  export-subst
+# Ignore when vendoring noise is needed
+*_pb2*.py linguist-generated=true
+*_pb2*.pyi linguist-generated=true
