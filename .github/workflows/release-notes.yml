@@ -35,7 +35,7 @@ jobs:
       - name: Create release notes
         run: ./.github/actions/create_release_and_archive.sh ${{ inputs.tags }}
       - name: Download Python artifacts
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # ratchet:actions/download-artifact@v3
+        uses: actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427 # ratchet:actions/download-artifact@v3
         with:
           name: python-artefacts
           path: dist
